@@ -35,7 +35,6 @@ const getImages = (query) => {
     .then(response => response.json())
     .then(data => showImages(data.hits))
     .catch(err => console.log(err))
-    // toggleSpinner();
 }
 
 let slideIndex = 0;
